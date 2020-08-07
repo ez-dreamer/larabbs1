@@ -18,13 +18,13 @@
 
         @include('layouts._header')
 
-        <div class="container">
+{{--        <div class="container">--}}
 
 {{--            @include('shared._messages')--}}
 
             @yield('content')
 
-        </div>
+{{--        </div>--}}
 
         @include('layouts._footer')
 
